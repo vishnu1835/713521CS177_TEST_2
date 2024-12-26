@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Courses - E-Learning Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        .course-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .course-item {
+            background: white;
+            border: 1px solid #0800fb;
+            border-radius: 5px;
+            margin: 10px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+        }
+        .course-item:hover {
+    background: #f0f8ff; 
+    border-color: #0056b3; 
+    transform: scale(1.05); 
+    box-shadow: 0 2px 5px rgba(255, 3, 3, 0.977);
+     }
+        .course-item img {
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .course-item h3 {
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #007BFF;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Available Courses</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Our Courses</h2>
+        <div class="course-list">
+            <div class="course-item">
+                <img src="Downloads/web-developments.webp" alt="Web Development" width= "300px" height="200px">
+                <h3>Web Development</h3>
+                <p>Learn how to build websites and web applications from scratch.</p>
+            </div>
+            <div class="course-item">
+                <img src="Downloads/DATA-SCIENCE.png" alt="Data Science" width= "300px" height="200px">
+                <h3>Data Science</h3>
+                <p>Master data analysis and visualization techniques.</p>
+            </div>
+            <div class="course-item">
+                <img src="Downloads/pg_machinelearning101_may23.webp" alt="Machine Learning" width= "300px" height="200px">
+                <h3>Machine Learning</h3>
+                <p>Understand the fundamentals of machine learning algorithms.</p>
+            </div>
+            <div class="course-item">
+                <img src="Downloads/images.jpg" alt="Graphic Design" width= "300px" height="200px">
+                <h3>Graphic Design</h3>
+                <p>Explore the principles of design and create stunning visuals.</p>
+            </div>
+            <div class="course-item">
+                <img src="Downloads/seo.png" alt="SEO" width= "300px" height="200px">
+                <h3>Search Engine Optimization (SEO)</h3>
+                <p>Learn how to optimize your website for search engines.</p>
+            </div>
+            <div class="course-item">
+                <img src="Downloads/20-Types-of-Digital-Marketing-Types.webp" alt="Digital Marketing" width= "300px" height="200px">
+                <h3>Digital Marketing</h3>
+                <p>Discover strategies for effective online marketing.</p>
+            </div>
+            <div class="course-item">
+                <img src="Downloads/shutterstock_1092829541.jpg" alt="Cyber Security" width= "300px" height="200px">
+                <h3>Cyber Security</h3>
+                <p>Understand the basics of protecting systems and networks.</p>
+            </div>
+            <div class="course-item">
+                <img src="Downloads/android-app-development-cost-factors.jpg" alt="Mobile App Development" width= "300px" height="200px">
+                <h3>Mobile App Development</h3> <p>Learn to create applications for mobile devices.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 E-Learning Platform</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
